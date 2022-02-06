@@ -28,8 +28,27 @@
               </li>
           </ul>
     </header>
-    <main class="text-center my-5">
-        <h2> Sitio en Construccion </h2>
+    <main class="text-center my-5 fs-4 bg-primary">
+      <form class="container-fluid col-md-4">
+        <div class="mb-3">
+          <label for="lastName" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="exampleInputLastName" aria-describedby="lastName" required>
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputName" aria-describedby="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text text-warning bg-dark">Nunca compartiremos tu correo con nadie.</div>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1"> Quiero Hacerme Socio</label>
+        </div>
+        <button type="submit" class="btn btn-dark btn-lg">Enviar</button>
+      </form>
         
     </main>
     <footer class="footer container-fluid d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
